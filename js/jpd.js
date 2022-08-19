@@ -5,7 +5,6 @@
     window.open("#","_parent");
   }
   else{
-    alert("ERROR!!");
     window.close();
     
   }
