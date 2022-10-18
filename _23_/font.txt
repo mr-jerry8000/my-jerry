@@ -1,0 +1,4 @@
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Loved by the King', cursive;
+font-family: 'Splash', cursive;
