@@ -23,7 +23,7 @@
 
   <body>
     <div style="text-align: center; color: aliceblue">
-      <h1>PGLUS WORLD <sub style="font-size: 20px">beta</sub></h1>
+      <h1>PGLUS WORLD <sub style="font-size: 20px">beta version</sub></h1>
 
       <input
         type="text"
@@ -53,8 +53,16 @@
         value="&#128128;login&#128128;"
         onclick="validate()"
       />
+      <span
+        id="message2"
+        style="
+          color: rgb(38, 0, 255);
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        "
+      >
+      </span>
     </div>
-    <h1 style="color: white">
+    <h1 style="color: white" class="db" id="dbb">
       I LOVVEEE YOUUU <br />
       MERA BACCHA &#10084;&#10084;&#10084;&#10084;&#10084;
     </h1>
@@ -118,6 +126,10 @@
     }
     .ft2 {
       color: rgba(255, 255, 255, 0);
+    }
+    #dbb {
+      color: rgba(0, 255, 255, 0);
+      opacity: 0.1;
     }
   </style>
   <script type="text/javascript" src="j/j.js"></script>
