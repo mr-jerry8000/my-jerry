@@ -38,6 +38,13 @@
         id="password"
       />
       <br />
+      <br />
+      <span
+        id="message"
+        style="color: red; font-family: Verdana, Geneva, Tahoma, sans-serif"
+      >
+      </span>
+      <br />
       <input
         id="log"
         type="Submit"
@@ -46,8 +53,23 @@
         onclick="validate()"
       />
     </div>
+    <footer>
+      <div style="padding: 4px" id="foot1">
+        <span class="ft2"> DOREMONE &#10084; JERRY</span>
+      </div>
+    </footer>
   </body>
   <style>
+    footer {
+      font-family: "Love Ya Like A Sister", cursive;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0, 255, 217, 0.282);
+      color: white;
+      text-align: center;
+    }
     #password,
     #username {
       margin: 10px;
@@ -69,7 +91,7 @@
       font-family: "Loved by the King", cursive;
       text-align: center;
       background-color: black;
-      background-image: url(i/back.jpg);
+      background-image: url(_23_/i/back.jpg);
 
       background-repeat: no-repeat;
       background-size: 130%;
@@ -77,6 +99,20 @@
     }
     h1 {
       margin-top: 180px;
+    }
+    #log:hover {
+      border-color: darkseagreen;
+      background-color: rgb(15, 35, 73);
+      color: aqua;
+    }
+    .ft1:hover {
+      color: rgba(255, 255, 255, 0);
+    }
+    .ft2:hover {
+      color: rgb(255, 255, 255);
+    }
+    .ft2 {
+      color: rgba(255, 255, 255, 0);
     }
   </style>
   <script type="text/javascript" src="j/j.js"></script>

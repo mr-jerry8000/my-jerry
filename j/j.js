@@ -8,7 +8,8 @@
         // window.location.href = "http://www.google.com";
         return false;
       } else {
-        alert("Login failed");
+        // alert("Login failed");
+        document.getElementById("message").innerHTML = "Enter valid username and password!!!";  
       }
     }
  
