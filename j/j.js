@@ -7,19 +7,9 @@
         window.open("https://mr-jerry8000.github.io/my-jerry/", "_self");
         // window.location.href = "http://www.google.com";
         return false;
-      }
-      if (username == "admin" && password == "pglus") {
-        // alert("login Successfully!!");
-        window.open("test.html", "_self");
-        // window.location.href = "http://www.google.com";
-        return false;
-      }
-       else {
+      } else {
         // alert("Login failed");
         document.getElementById("message").innerHTML = "Enter valid username and password!!!";  
       }
-    }
-    function done(){
-      document.getElementById("message2").innerHTML = "Enter successfully!!!";  
     }
  
