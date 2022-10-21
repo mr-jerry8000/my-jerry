@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Item Hover Effects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style></style>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Macondo&family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+
+    <main>
+      <img src="/images/favicon.png" alt="" height="70x" />
+      <h3 style="font-family: 'Macondo', cursive; font-size: 22px">
+        DOREMONE - JERRY
+      </h3>
+    </main>
+
+    <br />
+    <hr />
+
+    <footer>
+      <div>
+        <span style="font-family: 'Orbitron', sans-serif"
+          >MADE BY MR.LUCKYYY____</span
+        >
+      </div>
+      <div style="padding: 4px" id="foot1">
+        <span class="ft2" style="font-family: 'Love Ya Like A Sister', cursive">
+          DOREMONE &#10084; JERRY</span
+        >
+      </div>
+    </footer>
+    <h3
+      style="
+        font-family: 'Macondo', cursive;
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      "
+    >
+      PGLU NOTES
+    </h3>
+    <hr />
+    <ul>
+      <li>
+        <a href="/coming.html">FOR PGLU &#10084; &#10084; </a>
+      </li>
+      <li><a href="log.html">PGLU OTHER NOTE</a></li>
+      <!-- <li><a href="#" data-text="Work">Work</a></li>
+      <li><a href="#" data-text="Team">Team</a></li>
+      <li><a href="#" data-text="Contact">Contact</a></li> -->
+    </ul>
+  </body>
+  <style>
+    hr {
+      color: aqua;
+      width: 100%;
+      height: 2px;
+      background-color: aqua;
+      border: 0.2px solid aqua;
+    }
+    @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background-color: black;
+      color: aliceblue;
+      text-align: center;
+    }
+    footer {
+      font-family: "Love Ya Like A Sister", cursive;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0, 255, 217, 0.282);
+      color: white;
+      text-align: center;
+    }
+    .ft1:hover {
+      color: rgba(255, 255, 255, 0);
+    }
+    .ft2:hover {
+      color: rgb(255, 255, 255);
+    }
+    .ft2 {
+      color: rgba(255, 255, 255, 0);
+    }
+    #dbb {
+      color: rgb(255, 255, 255);
+    }
+    .pg {
+      color: aqua;
+    }
+    .pg :hover {
+      color: rgb(0, 174, 255);
+      font-size: 35px;
+    }
+    #foot1 {
+      font-family: "Love Ya Like A Sister", cursive;
+    }
+    sub {
+      font-size: 1rem;
+    }
+    body {
+      background-color: #000;
+      color: white;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    ul {
+      margin-top: 40px;
+      position: relative;
+    }
+    ul li {
+      list-style: none;
+      text-align: center;
+      border: 0.1px solid aqua;
+      margin: 20px;
+      border-radius: 20px;
+      font-size: 0.4rem;
+    }
+    ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: 3em;
+      padding: 5px 20px;
+      display: inline-flex;
+      font-weight: 700;
+      transition: 0.5s;
+    }
+    ul:hover {
+      color: rgba(196, 175, 175, 0.133);
+    }
+    ul li:hover {
+      color: #000;
+      background: rgb(12, 80, 74);
+    }
+    ul li a:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 5em;
+      color: rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      z-index: -1;
+      opacity: 0;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 500px;
+      transition: letter-spacing 0.5s, left 0.5s;
+    }
+    ul li a:hover:before {
+      content: attr(data-text);
+      opacity: 1;
+      left: 50%;
+      letter-spacing: 10px;
+      width: 1800px;
+      height: 1800px;
+    }
+  </style>
+</html>
