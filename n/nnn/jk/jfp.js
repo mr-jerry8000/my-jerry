@@ -3,7 +3,7 @@
       var password = document.getElementById("password").value;
       if (password == 87699) {
         // alert("login Successfully!!");
-        window.open("coming.html", "_self");
+        window.open("p/life_menu.html", "_self");
         // window.location.href = "http://www.google.com";
         return false;
       }

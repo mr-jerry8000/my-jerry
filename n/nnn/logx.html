@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Love+Ya+Like+A+Sister&family=Loved+by+the+King&family=Splash&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>LOG IN</title>
+  </head>
+
+  <body>
+    <div style="text-align: center; color: aliceblue">
+      <h1>XXXXXXXXX<sub style="font-size: 15px"></sub></h1>
+
+      <input
+        type="password"
+        name="pwd"
+        placeholder="Enter password"
+        id="password"
+      />
+      <br />
+      <br />
+      <span
+        id="message"
+        style="color: red; font-family: Verdana, Geneva, Tahoma, sans-serif"
+      >
+      </span>
+      <br />
+      <input
+        id="log"
+        type="Submit"
+        name="login"
+        value="&#128128;&#128128;"
+        onclick="validate()"
+      />
+      <span
+        id="message2"
+        style="
+          color: rgb(38, 0, 255);
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        "
+      >
+      </span>
+    </div>
+  </body>
+  <script>
+    function validate() {
+      var password = document.getElementById("password").value;
+      if (password == "devil") {
+        // alert("login Successfully!!");
+        window.open("other.html", "_self");
+        // window.location.href = "http://www.google.com";
+        return false;
+      } else {
+        // alert("Login failed");
+        document.getElementById("message").innerHTML =
+          "Enter valid password!!!";
+      }
+    }
+    function done() {
+      document.getElementById("message2").innerHTML = "Enter successfully!!!";
+    }
+  </script>
+  <style>
+    footer {
+      font-family: "Love Ya Like A Sister", cursive;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0, 255, 217, 0.282);
+      color: white;
+      text-align: center;
+    }
+    #password,
+    #username {
+      margin: 10px;
+      width: 200px;
+      padding: 9px;
+      text-align: center;
+      color: aqua;
+      background: transparent;
+      border: 2px solid aqua;
+      border-radius: 20px;
+    }
+    #log {
+      background-color: rgb(43, 226, 217);
+      padding: 3px 13px;
+      margin-top: 12px;
+      border-radius: 20px;
+    }
+    body {
+      font-family: "Loved by the King", cursive;
+      text-align: center;
+      background-color: black;
+      background-image: url(https://wallpaperaccess.com/full/1545346.jpg);
+      background-repeat: no-repeat;
+      background-size: 130%;
+      background-attachment: fixed;
+      background-position-x: center;
+    }
+    h1 {
+      margin-top: 100px;
+    }
+    b {
+      color: rgba(240, 248, 255, 0);
+    }
+    b:hover {
+      color: aliceblue;
+    }
+    #log:hover {
+      border-color: darkseagreen;
+      background-color: rgb(15, 35, 73);
+      color: aqua;
+    }
+    .ft1:hover {
+      color: rgba(255, 255, 255, 0);
+    }
+    .ft2:hover {
+      color: rgb(255, 255, 255);
+    }
+    .ft2 {
+      color: rgba(255, 255, 255, 0);
+    }
+    #dbb {
+      color: rgb(255, 255, 255);
+    }
+  </style>
+</html>
