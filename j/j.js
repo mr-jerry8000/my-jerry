@@ -8,7 +8,15 @@
         // window.location.href = "http://www.google.com";
         return false;
       }
-      if (username == "admin" && password == "pglus") {
+      if (username == "doremone" && password == "jerry") {
+        // alert("login Successfully!!");
+        window.open("test.html", "_self");
+        // window.location.href = "http://www.google.com";
+        
+        
+return false;
+      }
+      if (username == "admin" && password == "admin") {
         // alert("login Successfully!!");
         window.open("test.html", "_self");
         // window.location.href = "http://www.google.com";
