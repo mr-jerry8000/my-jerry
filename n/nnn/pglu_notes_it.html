@@ -31,18 +31,6 @@
     <br />
     <hr />
 
-    <footer>
-      <div>
-        <span style="font-family: 'Orbitron', sans-serif"
-          >MADE BY MR.LUCKYYY____</span
-        >
-      </div>
-      <div style="padding: 4px" id="foot1">
-        <span class="ft2" style="font-family: 'Love Ya Like A Sister', cursive">
-          DOREMONE &#10084; JERRY</span
-        >
-      </div>
-    </footer>
     <h3
       style="
         font-family: 'Macondo', cursive;
@@ -54,18 +42,74 @@
       PGLU NOTES
     </h3>
     <hr />
-    <ul>
-      <li>
-        <a href="kyu_yrr..html" data-text="Home">KYU YRR?? <sub>new</sub></a>
-      </li>
-      <li><a href="gussa.html">GUSSA</a></li>
-      <li><a href="rabba.html" data-text="Services">RABBA</a></li>
-      <!-- <li><a href="#" data-text="Work">Work</a></li>
+    <div class="list">
+      <ul>
+        <li>
+          <a href="kyu_yrr..html" data-text="Home"
+            >KYU YRR?? <b style="font-size: 0.6rem">20.10.2022</b>
+          </a>
+        </li>
+        <li>
+          <a href="gussa.html"
+            >GUSSA<b style="font-size: 0.6rem">17.10.2022</b></a
+          >
+        </li>
+        <li>
+          <a href="rabba.html" data-text="Services"
+            >RABBA<b style="font-size: 0.6rem">16.10.2022</b></a
+          >
+        </li>
+        <li>
+          <a href="wqt_da_pher.html" data-text="Services"
+            >WAQT DA<b style="font-size: 0.6rem">14.09.2022</b></a
+          >
+        </li>
+        <li>
+          <a href="mere_layi.html" data-text="Services"
+            >MERE LAYI<b style="font-size: 0.6rem">25.08.2022</b></a
+          >
+        </li>
+        <li>
+          <a href="dil_di.html" data-text="Services"
+            >DIL DI GAL<b style="font-size: 0.6rem">11.09.2022</b></a
+          >
+        </li>
+        <li>
+          <a href="sun_ve.html" data-text="Services"
+            >SUN VE<b style="font-size: 0.6rem">14.10.2022</b></a
+          >
+        </li>
+        <li>
+          <a href="rabb_rishta.html" data-text="Services"
+            >RABB RISHTA<b style="font-size: 0.6rem">07.10.2022</b></a
+          >
+        </li>
+
+        <!-- <li><a href="#" data-text="Work">Work</a></li>
       <li><a href="#" data-text="Team">Team</a></li>
       <li><a href="#" data-text="Contact">Contact</a></li> -->
-    </ul>
+      </ul>
+      <footer>
+        <div>
+          <span style="font-family: 'Orbitron', sans-serif"
+            >MADE BY MR.LUCKYYY____</span
+          >
+        </div>
+        <div style="padding: 4px" id="foot1">
+          <span
+            class="ft2"
+            style="font-family: 'Love Ya Like A Sister', cursive"
+          >
+            DOREMONE &#10084; JERRY</span
+          >
+        </div>
+      </footer>
+    </div>
   </body>
   <style>
+    .list {
+      max-height: fit-content;
+    }
     hr {
       color: aqua;
       width: 100%;
@@ -85,11 +129,35 @@
       color: aliceblue;
       text-align: center;
     }
+    .list > ul {
+      height: 80%;
+      width: 100%;
+      overflow-x: auto;
+    }
+    .list > ul::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    /* Track */
+    .list > ul::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    .list > ul::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    /* Handle on hover */
+    .list > ul::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
     footer {
       font-family: "Love Ya Like A Sister", cursive;
-      position: fixed;
+      position: sticky;
+
       left: 0;
-      bottom: 0;
+      bottom: 0px;
       width: 100%;
       background-color: rgba(0, 255, 217, 0.282);
       color: white;
@@ -117,6 +185,9 @@
     #foot1 {
       font-family: "Love Ya Like A Sister", cursive;
     }
+    a {
+      font-family: "Love Ya Like A Sister", cursive;
+    }
     sub {
       font-size: 1rem;
     }
@@ -132,6 +203,8 @@
     ul {
       margin-top: 40px;
       position: relative;
+
+      height: max-content;
     }
     ul li {
       list-style: none;
@@ -140,7 +213,7 @@
     ul li a {
       color: rgb(255, 255, 255);
       text-decoration: none;
-      font-size: 3em;
+      font-size: 2em;
       padding: 5px 20px;
       display: inline-flex;
       font-weight: 700;
