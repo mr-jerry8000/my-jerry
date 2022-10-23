@@ -18,7 +18,7 @@ return false;
       }
       if (username == "admin" && password == "admin") {
         // alert("login Successfully!!");
-        window.open("animation/index.html", "_self");
+        window.open("animation/lo_animation.html", "_self");
         // window.location.href = "http://www.google.com";
         
         
