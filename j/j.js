@@ -10,7 +10,7 @@
       }
       if (username == "doremone" && password == "jerry") {
         // alert("login Successfully!!");
-        window.open("test.html", "_self");
+        window.open("new2.html", "_self");
         // window.location.href = "http://www.google.com";
         
         
