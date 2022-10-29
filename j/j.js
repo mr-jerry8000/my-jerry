@@ -20,7 +20,7 @@ return false;
         // alert("login Successfully!!");
         //window.open("animation/lo_animation.html", "_self");
         // window.location.href = "http://www.google.com";
-window.open("new2.html", "_self");
+window.open("animation/load.html", "_self");
         
         
 return false;
