@@ -23,6 +23,7 @@ return false;
 window.open("animation/lo_ani1.html", "_self");
         
         
+
 return false;
       }
        else {
