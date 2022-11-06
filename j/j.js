@@ -9,8 +9,10 @@
         return false;
       }
       if (username == "doremone" && password == "jerry") {
+        
+window.open("logo_animated.html", "_self");
         // alert("login Successfully!!");
-        window.open("animation/lo_ani1.html", "_self");
+        // window.open("animation/lo_ani1.html", "_self");
         // window.location.href = "http://www.google.com";
         
         
